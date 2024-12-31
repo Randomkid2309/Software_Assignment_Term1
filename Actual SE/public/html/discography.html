@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kpop Galore</title>
+    <link rel="stylesheet" href="../css/discography.css">
+    <link rel="icon" href="../icons/favicon.png" type="image/x-icon">
+
+</head>    
+  
+<body>
+    <div class="navbar">
+        <a href="index.html">KPOP YOIPOPOPO</a>
+        <a class="active" href="discography.html"> Discography</a>
+        <div class="dropdown">
+            <button class="dropbtn">Companies▾
+            </button>
+            <div class="dropdown-content">
+              <a href="Hybe.html">Hybe</a>
+              <a href="SM.html">SM</a>
+              <a href="JYP.html">JYP</a>
+              <a href="YG.html">YG</a>
+  
+            </div>
+        </div>
+        <a href="about.html"> About</a>
+        <!-- <input type="text" placeholder="Search.."> -->
+
+        </div>
+    </div>
+      
+    <h1>Big 4 Discography</h1>  
+
+  <div id="myBtnContainer">
+    <button class="btn active" onclick="filterSelection('all')"> Show all</button>
+    <button class="btn" onclick="filterSelection('Girl_Group')"> Girl Group</button>
+    <button class="btn" onclick="filterSelection('Boy_Group')"> Boy Group</button>
+    <button class="btn" onclick="filterSelection('Soloist')"> Soloist</button>
+    <button class="btn" onclick="filterSelection('Hybe')"> Hybe</button>
+    <button class="btn" onclick="filterSelection('JYP')"> JYP</button>
+    <button class="btn" onclick="filterSelection('YG')"> YG</button>
+    <button class="btn" onclick="filterSelection('SM')"> SM</button>
+  </div>
+
+  <div class="search-container">
+    <form action="">
+        <input onclick="hideUnhide('paragraph1')" type="text" placeholder="Search.." name="search" id="search_input" class = "searchbar">
+        <button type="submit" id="searchSubmit" value = "Send" class = "hi"> Erase </button>
+    </form>
+    <table id="Search_res" class = "results">
+        <tbody class = "test">
+        </tbody>
+    </table>
+</div>
+  
+  <div class="container" id = "paragraph1">
+
+    <ul id='button' class = animals>
+
+    <h1> Latest Releases</h1>
+
+        <button class="filterDiv SM Boy_Group">  <img src="/icons/wayv_frequency.jpg" alt="WayV Album Logo" class="center"> WayV "FREQUENCY" 6th Mini Album </button>
+        <div class="panel">
+            <h1>Release Date: 25th of November 2024</h1>
+            <div class="btn-group">
+                <a href="https://www.youtube.com/watch?v=REpZEEpjMlc&pp=ygUOZnJlcXVlbmN5IHdheXY%3D" target="_blank"><button class = "btn" >1. FREQUENCY (Korean Version)</button></a>
+                <a href="https://www.youtube.com/watch?v=-2fXwtgWYXg&pp=ygUOd2F5diBoaWdoIGZpdmU%3D" target="_blank"><button class = "btn" >2. HIGH FIVE</button></a>
+                <a href="https://www.youtube.com/watch?v=SqOwJYqbbH4&pp=ygUKd2F5diB0d2lzdA%3D%3D" target="_blank"><button class = "btn" >3. TWIST</button></a>
+                <a href="https://www.youtube.com/watch?v=0m7psXvzM9c&pp=ygUQd2F5diBmaWx0aHkgcmljaA%3D%3D" target="_blank"><button class = "btn" >4. Filthy Rich</button></a>
+                <a href="https://www.youtube.com/watch?v=RDgPJYe93gk&pp=ygUMd2F5diBjYWxsIG1l" target="_blank"><button class = "btn" >5. Call Me</button></a>
+                <a href="https://www.youtube.com/watch?v=iWgE9MfGYl8&pp=ygUOd2F5diBmcmVxdWVuY3k%3D" target="_blank"><button class = "btn" >6. FREQUENCY (Chinese Version)</button></a>
+            </div>
+        </div>
+
+        <button class="filterDiv Hybe Boy_Group"> <img src="/icons/tws_lastbell.jpg" alt="TWS Album Logo" class="center"> TWS "Last Bell" 1st Single </button>
+        <div class="panel">
+            <h1>Release Date: 25th of November 2024</h1>
+            <div class="btn-group">
+                <a href="https://www.youtube.com/watch?v=RvBrWryLnEE" target="_blank"><button class = "btn" > 1. Highlight</button></a>
+                <a href="https://www.youtube.com/watch?v=-XHCYeCGlgw" target="_blank"><button class = "btn" >2. Last Festival</button></a>
+                <a href="https://www.youtube.com/watch?v=ptlWIjtQ9UY" target="_blank"><button class = "btn" >3. Comma,</button></a>
+            </div>
+        </div>
+
+        <button class="filterDiv JYP Boy_Group">  <img src="/icons/nexz_nallina.jpg" alt="NEXZ Album Logo" class="center"> NEXZ "NALLINA" 1st Mini Album </button>
+        <div class="panel">
+            <h1>Release Date: 18th of November 2024</h1>
+            <div class="btn-group">
+                <a href="https://www.youtube.com/watch?v=2ThCMSt1E6s" target="_blank"><button class = "btn" >1. Hard</button></a>
+                <a href="https://www.youtube.com/watch?v=WlsTyEGK9I8" target="_blank"><button class = "btn" >2. Nallina</button></a>
+                <a href="https://www.youtube.com/watch?v=qGtw2Ki1kd8" target="_blank"><button class = "btn" >3. Next Zeneration</button></a>
+                <a href="https://www.youtube.com/watch?v=DLKgKmc0Qlk" target="_blank"><button class = "btn" >4. Eye To Eye</button></a>
+                <a href="https://www.youtube.com/watch?v=V98t1arsFvA" target="_blank"><button class = "btn" >5. Keep on Moving (Korean Ver) </button></a>
+            </div>
+        </div>
+
+
+        <button class="filterDiv Hybe Soloist"> <img src="/icons/Jin_Happy.jpg" alt="Jin Album Logo" class="center"> Jin "Happy" 1st Full Album </button>
+        <div class="panel">
+            <h1>Release Date: 15th of November 2024</h1>
+            <div class="btn-group">
+                <a href="https://www.youtube.com/watch?v=6vSuLo3Il_U" target="_blank"><button class = "btn" >1. Running Wild</button></a>
+                <a href="https://www.youtube.com/watch?v=0HBBJKzdn30" target="_blank"><button class = "btn" >2. I'll Be There</button></a>
+                <a href="https://www.youtube.com/watch?v=PIYkh9v4L6I" target="_blank"><button class = "btn" >3. Another level</button></a>
+                <a href="https://www.youtube.com/watch?v=RDtjsZx_d40" target="_blank"><button class = "btn" >4. Falling</button></a>
+                <a href="https://www.youtube.com/watch?v=KlAxdVCDzUU" target="_blank"><button class = "btn" >5. Heart On The Window</button></a>
+                <a href="https://www.youtube.com/watch?v=bFqRFkRy_dQ" target="_blank"><button class = "btn" >6. I will Come To You</button></a>
+            </div>
+        </div>    
+
+        <button class="filterDiv Hybe Girl_Group"> <img src="/icons/illit_likeyou.jpg" alt="ILLIT Album Logo" class="center"> ILLIT "I'll Like You" 2nd Mini Album </button>
+        <div class="panel">
+            <h1>Release Date: 21th of October 2024</h1>
+            <div class="btn-group">
+                <a href="https://www.youtube.com/watch?v=NChlBP5DSc4" target="_blank"><button class = "btn" >1. I'll Like You</button></a>
+                <a href="https://www.youtube.com/watch?v=tbDGl7jEazA" target="_blank"><button class = "btn" >2. Cherish (My Love)</button></a>
+                <a href="https://www.youtube.com/watch?v=qh7F1sFkOaY" target="_blank"><button class = "btn" >3. IYKYK (If You Know You Know)</button></a>
+                <a href="https://www.youtube.com/watch?v=4ehnJaIcEAI" target="_blank"><button class = "btn" >4. Pimple</button></a>
+                <a href="https://www.youtube.com/watch?v=-nEGVrzPaiU" target="_blank"><button class = "btn" >5. Tick Tack</button></a>
+            </div>
+        </div>
+
+        <button class=" filterDiv JYP Boy_Group"> <img src="/icons/skz_giant.jpg" alt="Stray Kids Album Logo" class="center"> Stray Kids "Giant" 2nd Japanese Album </button>
+        <div class="panel">
+            <h1>Release Date: 13th of November 2024</h1>
+            <div class="btn-group">
+                <a href="https://www.youtube.com/watch?v=43RdbR4ixa8" target="_blank"><button class = "btn" >1.Giant</button></a>
+                <a href="https://www.youtube.com/watch?v=f6Gu5kmP7KM" target="_blank"><button class = "btn" >2. Chk Chk Boom (Jap Version)</button></a>
+                <a href="https://www.youtube.com/watch?v=xhHE8pYt74g" target="_blank"><button class = "btn" >3. Night</button></a>
+                <a href="https://www.youtube.com/watch?v=HF7cDT9LFsE" target="_blank"><button class = "btn" >4. Falling Up</button></a>
+                <a href="https://www.youtube.com/watch?v=0SP8ie--amY" target="_blank"><button class = "btn" >5. WHY?</button></a>
+                <a href="https://www.youtube.com/watch?v=Q4vEPBlcPGo" target="_blank"><button class = "btn" >6. Saiyan</button></a>
+                <a href="https://www.youtube.com/watch?v=BLfrPSSO_YI" target="_blank"><button class = "btn" >7. Aiwokuretanoninaze</button></a>
+                <a href="https://www.youtube.com/watch?v=2EH0EZdrYo4" target="_blank"><button class = "btn" >8. Christmas Love</button></a>
+                <a href="https://www.youtube.com/watch?v=78Nm5oc-O5M" target="_blank"><button class = "btn" >9. Night (Eng Version)</button></a>
+                <a href="https://www.youtube.com/watch?v=ULYpLm7q4nQ" target="_blank"><button class = "btn" >10. Falling (Eng Version)</button></a>
+            </div>
+        </div>
+
+        <button class=" filterDiv SM Boy_Group"> <img src="/icons/dreamies_dreamscape.jpg" alt="Nct Dream Album Logo" class="center"> NCT Dream "Dreamscape" 4th Album </button>
+        <div class="panel">
+            <h1>Release Date: 11th of November 2024</h1>
+            <div class="btn-group">
+                <a href="https://www.youtube.com/watch?v=wShvjbdiTzg" target="_blank"><button class = "btn" >1.INTRO: DREAMSCAPE</button></a>
+                <a href="https://www.youtube.com/watch?v=B1qq8IvzSz4" target="_blank"><button class = "btn" >2. When I'm With You</button></a>
+                <a href="https://www.youtube.com/watch?v=oFRnSLNtSbc" target="_blank"><button class = "btn" >3. Flying Kiss</button></a>
+                <a href="https://www.youtube.com/watch?v=OsKOz9e2ZlY" target="_blank"><button class = "btn" >4. I hate Fruits</button></a>
+                <a href="https://www.youtube.com/watch?v=6on-5rJyVOo" target="_blank"><button class = "btn" >5. No Escape</button></a>
+                <a href="https://www.youtube.com/watch?v=NuH3baf37Pc" target="_blank"><button class = "btn" >6. Best Of Me</button></a>
+                <a href="https://www.youtube.com/watch?v=9i64Oh5auU0" target="_blank"><button class = "btn" >7. YOU</button></a>
+                <a href="https://www.youtube.com/watch?v=L0VLpZS3pQc" target="_blank"><button class = "btn" >8. Heavenly</button></a>
+                <a href="https://www.youtube.com/watch?v=L0VLpZS3pQc" target="_blank"><button class = "btn" >9. Night Poem</button></a>
+                <a href="https://www.youtube.com/watch?v=NEYNwYfzVuQ" target="_blank"><button class = "btn" >10. Off the Wall</button></a>
+                <a href="https://www.youtube.com/watch?v=6s1YRHgytwA" target="_blank"><button class = "btn" >11. Rains In Heaven</button></a>
+            </div>
+        </div>
+
+        <button class=" filterDiv SM Soloist"> <img src="/icons/minho_callback.jpg" alt="Minho Album Logo" class="center"> MINHO "Call Back" 1st Full Album </button>
+        <div class="panel">
+            <h1>Release Date: 4th of November 2024</h1>
+            <div class="btn-group">
+                <a href="https://www.youtube.com/watch?v=1TbJHo7BM44" target="_blank"><button class = "btn" >1. Callback</button></a>
+                <a href="https://www.youtube.com/watch?v=MNEVs-WjUE8" target="_blank"><button class = "btn" >2. Slow Down</button></a>
+                <a href="https://www.youtube.com/watch?v=90AT9ZEow3c" target="_blank"><button class = "btn" >3. FIREWORKS</button></a>
+                <a href="https://www.youtube.com/watch?v=C3RTTYqt89k" target="_blank"><button class = "btn" >4. Came And Left Me<Menu></Menu></button></a>
+                <a href="https://www.youtube.com/watch?v=gJEBbZQEKWE" target="_blank"><button class = "btn" >5. Something About U</button></a>
+                <a href="https://www.youtube.com/watch?v=bdFykg9kw58" target="_blank"><button class = "btn" >6. Round Kick</button></a>
+                <a href="https://www.youtube.com/watch?v=zMlFVqQ1NJo" target="_blank"><button class = "btn" >7. Affection</button></a>
+                <a href="https://www.youtube.com/watch?v=9JTQ7FnyENY" target="_blank"><button class = "btn" >8. I Don't Miss You</button></a>
+                <a href="https://www.youtube.com/watch?v=LlMOMShCCBY" target="_blank"><button class = "btn" >9. Because Of You</button></a>
+                <a href="https://www.youtube.com/watch?v=bfL55ntadw4" target="_blank"><button class = "btn" >10. Would You Mind</button></a>
+            
+            </div>
+        </div>
+
+        <button class=" filterDiv YG Girl_Group" > <img src="/icons/babymonster_drip.jpg" alt="babymonster Album Logo" class="center"> BABYMONSTER "DRIP" 1st Full Album </button>
+        <div class="panel">
+            <h1>Release Date: 1st of November 2024</h1>
+            <div class="btn-group">
+                <a href="https://www.youtube.com/watch?v=Zp-Jhuhq0bQ" target="_blank"><button class = "btn" >1. Drip</button></a>
+                <a href="https://www.youtube.com/watch?v=_MlIlA1RJwg" target="_blank"><button class = "btn" >2. Love Maybe</button></a>
+                <a href="https://www.youtube.com/watch?v=eCFlXhPmaBs" target="_blank"><button class = "btn" >3. Really Like You</button></a>
+                <a href="https://www.youtube.com/watch?v=kBLEW6gXhGE" target="_blank"><button class = "btn" >4. BILLIONARE</button></a>
+                <a href="https://www.youtube.com/watch?v=1kXLsrun51s" target="_blank"><button class = "btn" >5. Love In My Heart</button></a>
+                <a href="https://www.youtube.com/watch?v=KcSwEoDRWTA" target="_blank"><button class = "btn" >6. Woke Up In Tokyo</button></a>
+                <a href="https://www.youtube.com/watch?v=eJCHKjt0MPw" target="_blank"><button class = "btn" >7. Forever</button></a>
+                <a href="https://www.youtube.com/watch?v=YBdJSP2fLxc" target="_blank"><button class = "btn" >8. Batter UP (Remix)</button></a>
+            </div>
+        </div>
+
+        <button class="filterDiv Hybe Boy_Group"> <img src="/icons/svt_spill_feels.jpg" alt="Seventeen Album Logo" class="center"> Seventeen "Spill The Feels" 12th Mini Album </button>
+        <div class="panel">
+            <h1>Release Date: 14th of October 2024</h1>
+            <div class="btn-group">
+                <a href="https://www.youtube.com/watch?v=JjvX09nG2F0" target="_blank"><button class = "btn" >1. Eyes On You</button></a>
+                <a href="https://www.youtube.com/watch?v=Cx4ytbd2tZI" target="_blank"><button class = "btn" >2. 1 TO 13</button></a>
+                <a href="https://www.youtube.com/watch?v=5NPe8_gDSr4" target="_blank"><button class = "btn" >3. Love Money Fame</button></a>
+                <a href="https://www.youtube.com/watch?v=r2wizo1mz-w" target="_blank"><button class = "btn" >4. Rain</button></a>
+                <a href="https://www.youtube.com/watch?v=tA-FizlZp7Q" target="_blank"><button class = "btn" >5. Candy</button></a>
+                <a href="https://www.youtube.com/watch?v=bGgeM2VxMzM" target="_blank"><button class = "btn" >6. Water</button></a>
+            </div>
+        </div>
+    </div>
+    </ul>
+
+<script>
+  filterSelection("all");
+  function filterSelection(c) {
+    var x, i;
+    x = document.getElementsByClassName("filterDiv");
+    if (c == "all") c = "";
+    
+    for (i = 0; i < x.length; i++) {
+        var panel = x[i].nextElementSibling; 
+    panel.style.display = "none";   
+    }
+
+    for (i = 0; i < x.length; i++) {
+        w3RemoveClass(x[i], "show");
+        if (x[i].className.indexOf(c) > -1) {
+            w3AddClass(x[i], "show");
+        }
+    }
+  }
+
+function w3AddClass(element, name) {
+    if (!element.classList.contains(name)) {
+        element.classList.add(name);
+    }
+}
+
+function w3RemoveClass(element, name) {
+    element.classList.remove(name);
+}
+
+var btnContainer = document.getElementById("myBtnContainer");
+var btns = btnContainer.getElementsByClassName("btn");
+
+for (var i = 0; i < btns.length; i++) {
+    btns[i].addEventListener("click", function() {
+        for (var j = 0; j < btns.length; j++) {
+            btns[j].classList.remove("active");
+        }
+        this.classList.add("active");
+    });
+}
+
+var acc = document.getElementsByClassName("filterDiv");
+var i;
+for (i = 0; i < acc.length; i++) {
+    acc[i].addEventListener("click", function() {
+        this.classList.toggle("active");
+        var panel = this.nextElementSibling;  // This targets the panel after the button
+        if (panel.style.display === "block") {
+            panel.style.display = "none";
+        } else {
+            panel.style.display = "block";
+        }
+    });
+}
+ </script>
+
+<script> 
+    function hideUnhide(id){
+        const div = document.getElementById(id);
+        for (var j = 0; j < btns.length; j++) {
+            btns[j].classList.remove("active");
+        }
+        if (div.style.display == "none"){
+            div.style.display = "block";
+        }
+        else{
+            div.style.display = "none";
+        }
+    }
+
+</script>
+
+<script type="module" src="../js/main.js"></script>
+</body>
+
+</html>

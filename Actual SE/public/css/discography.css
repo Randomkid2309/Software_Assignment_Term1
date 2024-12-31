@@ -1,0 +1,325 @@
+h1 {
+    color: #A0ADFF;
+    margin-bottom: 0.5rem;
+    font-family: Garamond, serif;
+}
+
+a{
+  text-decoration: none;
+}
+
+p{
+  color: black;
+  font-family: Garamond, serif;
+}
+
+.center {
+    display: block;
+    float: left;
+    align-items: center;
+    width: 12%;
+    height: 12%;
+    margin: 0 auto;
+    overflow: hidden;
+    text-align: center;
+    padding: 8px 8px;
+  }
+
+body{
+    background-color: #D3D9FF;
+    font-family: Garamond, serif;
+}
+ 
+  .navbar {
+    overflow: hidden;
+    font-size: 20px;
+    background-color:  #8e9dff;
+    font-family: Garamond, serif;
+
+  }
+  .navbar a.active {
+    background-color:#a5b1ff;
+    overflow: hidden;
+    color: white;
+  }
+  
+  /* Links inside the navbar */
+  .navbar a {
+    float: left;
+    font-size: 20px;
+    color: white;
+    text-align: center;
+    padding: 12px 30px;
+    text-decoration: none;
+  }
+  
+  /* The dropdown container */
+  .dropdown {
+    float: left;
+    overflow: hidden;
+    padding: 12px 30px;
+    font-size: 20px;
+
+    font-family: Garamond, serif;
+  }
+  
+  /* Dropdown button */
+  .dropdown .dropbtn {
+    font-size: 20px;
+    border: none;
+    outline: none;
+    color: white;
+    background-color: inherit;
+    font-family: inherit; /* Important for vertical align on mobile phones */
+    margin: 0; /* Important for vertical align on mobile phones */
+  }
+  
+  .navbar a:hover, .dropdown:hover .dropbtn {
+    background-color: #d2d8ff;
+  }
+  
+  .navbar input[type=text] {
+    float: left;
+    padding: 6px;
+    border: none;
+    margin-top: 8px;
+    margin-right: 16px;
+    font-size: 17px;
+  }
+
+  /* Dropdown content (hidden by default) */
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color:#d2d8ff;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  /* Links inside the dropdown */
+  .dropdown-content a {
+    float: none;
+    color: black;
+    padding: 12px 55px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+    font-family: Garamond, serif;
+  }
+  
+  /* Add a grey background color to dropdown links on hover */
+  .dropdown-content a:hover {
+    background-color:#dce0fd;
+  }
+  
+  /* Show the dropdown menu on hover */
+  .dropdown:hover .dropdown-content {
+    display: block;
+    padding: 12px 0px;
+  }
+
+  .filterDiv {
+    float: left;
+    background-color: #8e9dff;
+    color: #ffffff;
+    width: 100%;
+    height: 100%;
+    line-height: 100px;
+    text-align: center;
+    margin: 1px;
+    display: none;
+    border: none;
+    border-width: 1px;
+    outline: none;
+    padding: 0.25px 8px;
+    cursor: pointer;
+    font-size:4.5vw;
+    transition: 0.4s;
+    font-family: Garamond, serif;
+  }
+
+  .filterDiv.show {
+    display: block;
+  }
+  
+  .show {
+    display: block;
+  }
+  
+  .panel {
+    display: none;
+    padding: 10px;
+    background-color:  #D3D9FF;
+    margin-top: 5px;
+    font-family: Garamond, serif;
+
+}
+  .container {
+    /* margin-top: 20px; */
+    overflow: hidden;
+    outline: none;
+    margin: 0.01px;
+    font-family: Garamond, serif;
+    border: none;
+
+  }
+  
+  /* Style the buttons */
+  .btn {
+    border: none;
+    outline: none;
+    margin: 5px;
+    padding: 12px 16px;
+    font-size:2.2vw;
+    background-color: #8e9dff;
+    cursor: pointer;
+    color: white;
+    font-family: Garamond, serif;
+    
+  }
+
+  .button a{
+    border: none;
+    outline: none;
+    padding: 12px 16px;
+    background-color: #8e9dff;
+    cursor: pointer;
+    color: white;
+    font-family: Garamond, serif;
+  }
+  
+  .hi{
+    border: none;
+    outline: none;
+    margin: 5px;
+    padding: 12px 16px;
+    font-size:2.2vw;
+    background-color: #a4afff;
+    cursor: pointer;
+    color: white;
+    font-family: Garamond, serif;  
+  }
+
+  .searchbar{
+    border: none;
+    outline: none;
+    margin: 5px;
+    padding: 12px 16px;
+    font-size:2.2vw;
+    font-family: Garamond, serif;  
+  }
+
+  .btn:hover {
+    background-color: #6075ff;
+    color: white;
+  }
+  
+  .btn.active {
+    background-color: #3550ff;
+    color: white;
+  }
+
+  .btn-group button {
+    background-color: #a4afff; 
+    color: white; 
+    padding: 10px 24px; 
+    cursor: pointer;
+    width: 80%; 
+    display: block; 
+  }
+  
+  .btn-group button:not(:last-child) {
+    border-bottom: none; 
+  }
+  
+  .btn-group button:hover {
+    background-color:  #6075ff;
+  }
+
+
+#tableHeader {
+    display: none;
+}
+
+td {
+    padding-top: 5px;
+    padding-left: 5px;
+    font-size: 15px;
+}
+
+tbody a {
+    display: block;
+    width: 205px;
+    text-align: left !important;
+    background-color: #8e9dff;
+    color: #ffffff;
+  width: 100%;
+  height: 100%;
+  line-height: 100px;
+  text-align: center;
+  margin: 1px;
+  padding: 0.25px 8px;
+  cursor: pointer;
+  font-size:30px;
+  font-family: Garamond, serif;
+}
+
+.button.submit {
+  display: block;
+  width: 255px;
+  height: 100px;
+  
+
+}
+
+input {
+  font-size:1rem;
+}
+
+.search-container {
+
+  display:flex;
+  width: 100%;
+  height: 100%;
+  flex-direction: column;
+  gap: .25rem;
+}
+
+.results {
+  background-color: #8e9dff;
+  color: #ffffff;
+  width: 100%;
+  height: 100%;
+  line-height: 100px;
+  text-align: center;
+  margin: 1px;
+  display: none;
+  border: none;
+  outline: none;
+  padding: 0.25px 8px;
+  cursor: pointer;
+  font-size:50px;
+  font-family: Garamond, serif;
+}
+
+
+.test {
+  float: left;
+  /* background-color: #A0ADFF;
+  color: #ffffff;
+  width: 100%;
+  height: 100%;
+  line-height: 100px;
+  text-align: center;
+  margin: 1px;
+  display: none;
+  border: none;
+  border-width: 1px;
+  outline: none;
+  padding: 0.25px 8px;
+  cursor: pointer;
+  font-size:4.5vw;
+  transition: 0.4s;
+  font-family: Garamond, serif; */
+}
