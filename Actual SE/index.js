@@ -54,29 +54,6 @@ app.post("/performsearch", function (req, res) {
     });
 });
 
-const registerServiceWorker = async () => {
-    if ("serviceWorker" in navigator) {
-      try {
-        const registration = await navigator.serviceWorker.register("/serviceworker.js", {
-          scope: "/",
-        });
-        if (registration.installing) {
-          console.log("Service worker installing");
-        } else if (registration.waiting) {
-          console.log("Service worker installed");
-        } else if (registration.active) {
-          console.log("Service worker active");
-        }
-      } catch (error) {
-        console.error(`Registration failed with ${error}`);
-      }
-    }
-  };
-  
-  // …
-  
-  registerServiceWorker();
-  
 
 app.listen(process.env.PORT || 3000, () => {
   console.log('Running at Port 3000');

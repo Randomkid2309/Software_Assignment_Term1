@@ -7,6 +7,7 @@ const assets = [
 
 ];
 
+
 const CATALOGUE_ASSETS = "catalogue-assets";
 
 self.addEventListener("install", (installEvt) => {
